@@ -43,6 +43,11 @@ class Array{
 arr1 = nw Array([4,2,3]);
 
 arr1.traverse();
-arr1.insert();
+arr1.insert(0,9);
 arr1.traverse();
-arr1.delete();
+
+arr1.delete(1);
+arr1.traverse();
+
+arr1.update(2,5);
+arr1.traverse();
